@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_RealmSwiftDemoRepo_RealmSwiftDemoRepoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_RealmSwiftDemoRepo_RealmSwiftDemoRepoUITests
+@end
