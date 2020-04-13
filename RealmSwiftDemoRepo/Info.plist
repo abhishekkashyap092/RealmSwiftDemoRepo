@@ -44,5 +44,21 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To locate you on the map</string>
+	<key>UIRequiresPersistentWiFi</key>
+	<true/>
+	<key>NSServices</key>
+	<array>
+		<dict>
+			<key>NSMessage</key>
+			<string></string>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>

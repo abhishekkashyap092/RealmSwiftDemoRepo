@@ -18,7 +18,7 @@ class WelcomeViewController : UIViewController {
     let signInButton = UIButton(type: .roundedRect)
     let signUpButton = UIButton(type: .roundedRect)
     let errorLabel = UILabel()
-    let activityIndicator = UIActivityIndicatorView(style: .gray)
+    let activityIndicator = UIActivityIndicatorView(style: .white)
 
     var username: String? {
         get {
@@ -98,10 +98,11 @@ class WelcomeViewController : UIViewController {
             }
         } else if (SyncUser.all.count == 1) {
             // Switch to the items view, if a user is logged in
-//            self.navigationController!.pushViewController(
+          self.navigationController!.pushViewController(
 //                ItemsViewController(),
-//                animated: false
-//            );
+            MapViewController(),
+                animated: false
+            );
         }
     }
 
@@ -127,7 +128,7 @@ class WelcomeViewController : UIViewController {
                 return;
             }
             print("Login succeeded!");
-            //self!.navigationController!.pushViewController(ItemsViewController(), animated: true);
+            self!.navigationController!.pushViewController(MapViewController(), animated: true);
         });
     }
     

@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		C5522B6F243A074B007F6B65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5522B6E243A074B007F6B65 /* Constants.swift */; };
 		C5641089244345CE0011B633 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5641088244345CE0011B633 /* WelcomeViewController.swift */; };
+		C56410A8244424120011B633 /* Specimen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56410A7244424120011B633 /* Specimen.swift */; };
+		C56410AA244424670011B633 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56410A9244424670011B633 /* Category.swift */; };
+		C56410AC2444249B0011B633 /* SpecimenAnnotation .swift in Sources */ = {isa = PBXBuildFile; fileRef = C56410AB2444249B0011B633 /* SpecimenAnnotation .swift */; };
+		C56410AE244424E10011B633 /* AddNewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56410AD244424E10011B633 /* AddNewEntryViewController.swift */; };
+		C56410B0244425040011B633 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56410AF244425040011B633 /* CategoriesTableViewController.swift */; };
+		C56410B2244428FD0011B633 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56410B1244428FD0011B633 /* LogViewController.swift */; };
+		C56410B4244429430011B633 /* LogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56410B3244429430011B633 /* LogCell.swift */; };
+		C56410B6244429AE0011B633 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56410B5244429AE0011B633 /* MapViewController.swift */; };
 		C5CF044F243A005300B1C2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF044E243A005300B1C2F4 /* AppDelegate.swift */; };
 		C5CF0451243A005300B1C2F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF0450243A005300B1C2F4 /* SceneDelegate.swift */; };
 		C5CF0453243A005300B1C2F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF0452243A005300B1C2F4 /* ContentView.swift */; };
@@ -50,6 +58,14 @@
 		B506F9EC6CFF14E7C0CF10ED /* Pods-RealmSwiftDemoRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmSwiftDemoRepoTests.release.xcconfig"; path = "Target Support Files/Pods-RealmSwiftDemoRepoTests/Pods-RealmSwiftDemoRepoTests.release.xcconfig"; sourceTree = "<group>"; };
 		C5522B6E243A074B007F6B65 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C5641088244345CE0011B633 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		C56410A7244424120011B633 /* Specimen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specimen.swift; sourceTree = "<group>"; };
+		C56410A9244424670011B633 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = SOURCE_ROOT; };
+		C56410AB2444249B0011B633 /* SpecimenAnnotation .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpecimenAnnotation .swift"; sourceTree = "<group>"; };
+		C56410AD244424E10011B633 /* AddNewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewEntryViewController.swift; sourceTree = "<group>"; };
+		C56410AF244425040011B633 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		C56410B1244428FD0011B633 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		C56410B3244429430011B633 /* LogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCell.swift; sourceTree = "<group>"; };
+		C56410B5244429AE0011B633 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C5CF044B243A005300B1C2F4 /* RealmSwiftDemoRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmSwiftDemoRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CF044E243A005300B1C2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5CF0450243A005300B1C2F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,15 +159,23 @@
 		C5CF044D243A005300B1C2F4 /* RealmSwiftDemoRepo */ = {
 			isa = PBXGroup;
 			children = (
+				C56410A9244424670011B633 /* Category.swift */,
+				C56410AB2444249B0011B633 /* SpecimenAnnotation .swift */,
+				C56410AD244424E10011B633 /* AddNewEntryViewController.swift */,
+				C56410AF244425040011B633 /* CategoriesTableViewController.swift */,
 				C5CF044E243A005300B1C2F4 /* AppDelegate.swift */,
+				C56410B5244429AE0011B633 /* MapViewController.swift */,
 				C5522B6E243A074B007F6B65 /* Constants.swift */,
 				C5641088244345CE0011B633 /* WelcomeViewController.swift */,
+				C56410B1244428FD0011B633 /* LogViewController.swift */,
+				C56410B3244429430011B633 /* LogCell.swift */,
 				C5CF0450243A005300B1C2F4 /* SceneDelegate.swift */,
 				C5CF0452243A005300B1C2F4 /* ContentView.swift */,
 				C5CF0454243A005400B1C2F4 /* Assets.xcassets */,
 				C5CF0459243A005400B1C2F4 /* LaunchScreen.storyboard */,
 				C5CF045C243A005400B1C2F4 /* Info.plist */,
 				C5CF0456243A005400B1C2F4 /* Preview Content */,
+				C56410A7244424120011B633 /* Specimen.swift */,
 			);
 			path = RealmSwiftDemoRepo;
 			sourceTree = "<group>";
@@ -423,9 +447,17 @@
 			files = (
 				C5CF044F243A005300B1C2F4 /* AppDelegate.swift in Sources */,
 				C5641089244345CE0011B633 /* WelcomeViewController.swift in Sources */,
+				C56410B4244429430011B633 /* LogCell.swift in Sources */,
+				C56410AE244424E10011B633 /* AddNewEntryViewController.swift in Sources */,
+				C56410B2244428FD0011B633 /* LogViewController.swift in Sources */,
 				C5CF0451243A005300B1C2F4 /* SceneDelegate.swift in Sources */,
+				C56410B6244429AE0011B633 /* MapViewController.swift in Sources */,
+				C56410AC2444249B0011B633 /* SpecimenAnnotation .swift in Sources */,
+				C56410A8244424120011B633 /* Specimen.swift in Sources */,
 				C5CF0453243A005300B1C2F4 /* ContentView.swift in Sources */,
 				C5522B6F243A074B007F6B65 /* Constants.swift in Sources */,
+				C56410AA244424670011B633 /* Category.swift in Sources */,
+				C56410B0244425040011B633 /* CategoriesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
